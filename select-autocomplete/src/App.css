@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #3f3f3f;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.autoselect-box{
+  width: 200px;
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  padding: 0px;
+  height: 30px;
+}
+
+.autoselect-box__selected-value{
+  color: #3f3f3f;
+  padding: 0px 10px;
+  font-size: 20px;
+}
+
+.autoselect-box__input{
+  width: 90%;
+  border-radius: 8px;
+  color: #3f3f3f;
+  padding: 0px 5% 0px 5%;
+}
+
+.autoselect-box__input:focus{
+  outline: none;
+  border-color: #6670f8;
+  font: inherit;
+  font-size: 20px;
+}
+
+.list-container{
+  max-height: 100px;
+  min-height: 20px;
+  overflow: auto;
+  box-shadow: 2px 2px 4px 1px #c0bbbb;
+  position: absolute;
+  background-color: white;
+  width: inherit;
+}
+
+.ul-list{
+  color: black;
+  font-size: 11px;
+  line-height: 22px;
+  padding-inline-start: 10px;
+  text-align: left;
+}
+
+.ul-list__element{
+  font-size: 15px;
+  color: #3f3f3f;
+}
+
+.ul-list__element:hover{
+  background-color: #dee3fc;
+}
